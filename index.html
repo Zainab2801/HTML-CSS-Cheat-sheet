@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML Table Reference</h1>
+    <h2>Basic Document Structure</h2>
+    <table>
+        <tr>
+            <th scope ="col">Tag</th>
+            <th scope ="col">Name</th>
+            <th scope ="col">Description</th>
+        </tr>
+        <tr>
+            <th scope="row">&lt;!DOCTYPE html&gt;</th>
+            <td>Document Type Declaration</td>
+            <td>Defines the document type and version of HTML.</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;html&gt;</th>
+            <td>HTML Element</td>
+            <td>The root element of an HTML page.</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;head&gt;</th>
+            <td>Head Element</td>
+            <td>Contains meta-information about the HTML document. (not displayed to users)</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;title&gt;</th>
+            <td>Title Element</td>
+            <td>Defines the title of the HTML document (displayed in the browser's title bar or tab).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;meta&gt;</th>
+            <td>Meta Element</td>
+            <td>Defines metadata about the HTML document (e.g., character set, author, description).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;link&gt;</th>
+            <td>Link Element</td>
+            <td>Defines the relationship between the current document and an external resource (most used to link stylesheets css).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;style&gt;</th>
+            <td>Style Element</td>
+            <td>Defines styles for the HTML document (usually contained within the &lt;head&gt; element).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;script&gt;</th>
+            <td>Script Element</td>
+            <td>Defines a client-side script (e.g., JavaScript) for the HTML document.</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;body&gt;</th>
+            <td>Body Element</td>
+            <td>Contains the content of the HTML document (displayed to users).</td>
+        </tr>
+    </table>
+    <h2>Text Content</h2>
+    <table>
+        <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+        </tr>
+        <tr>
+            <th scope="row">&lt;h1&gt; - &lt;h6&gt;</th>
+            <td>Headings</td>
+            <td>Defines HTML headings, with &lt;h1&gt; being the highest level and &lt;h6&gt; being the lowest.</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;p&gt;</th>
+            <td>Paragraph</td>
+            <td>Defines a paragraph of text.</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;br&gt;</th>
+            <td>Line Break</td>
+            <td>Inserts a line break in the text.</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;hr&gt;</th>
+            <td>Horizontal Rule</td>
+            <td>Defines a thematic break in the content (usually a horizontal line).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;strong&gt; / &lt;b&gt;</th>
+            <td>Strong Emphasis</td>
+            <td>Defines important text (usually displayed in bold).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;i&gt;/ &lt;em&gt;</th>
+            <td>Italic Text</td>
+            <td>Defines text that is emphasized (usually displayed in italics).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;sup&gt;</th>
+            <td>Superscript</td>
+            <td>Defines text that is displayed as superscript (elevated above the baseline).</td>
+        </tr>
+        <tr>
+            <th scope="row">&lt;sub&gt;</th>
+            <td>Subscript</td>
+            <td>Defines text that is displayed as subscript (lowered below the baseline).</td>
+        </tr>
+    </table>
+     <h2>Links & Media</h2>
+        <table>
+            <tr>
+                <th scope ="col">Tag</th>
+                <th scope ="col">Name</th>
+                <th scope ="col">Description</th>
+            </tr>
+            <tr>
+                <th scope="row">&lt;a&gt;</th>
+                <td>Anchor</td>
+                <td>Defines a hyperlink.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;img&gt;</th>
+                <td>Image</td>
+                <td>Embeds an image in the document.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;figure&gt;</th>
+                <td>Figure</td>
+                <td>Defines a self-contained content, like an image with a caption.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;audio&gt;</th>
+                <td>Audio</td>
+                <td>Embeds an audio file in the document.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;video&gt;</th>
+                <td>Video</td>
+                <td>Embeds a video file in the document.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;source&gt;</th>
+                <td>Source</td>
+                <td>Specifies multiple media resources for video and audio elements.</td>
+            </tr>
+        </table>
+        <h2>Lists</h2>
+        <table>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+            <tr>
+                <th scope="row">&lt;ul&gt;</th>
+                <td>Unordered List</td>
+                <td>Defines a list of items in no particular order.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;ol&gt;</th>
+                <td>Ordered List</td>
+                <td>Defines a list of items in a specific order.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;li&gt;</th>
+                <td>List Item</td>
+                <td>Defines an item in a list.</td>
+            </tr>
+        </table>
+        <h2>Tables</h2>
+        <table>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+            <tr>
+                <th scope="row">&lt;table&gt;</th>
+                <td>Table</td>
+                <td>Defines a table.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;tr&gt;</th>
+                <td>Table Row</td>
+                <td>Defines a row in a table.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;td&gt;</th>
+                <td>Table Data</td>
+                <td>Defines a cell in a table.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;th&gt;</th>
+                <td>Table Header</td>
+                <td>Defines a header cell in a table.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;caption&gt;</th>
+                <td>Table Caption</td>
+                <td>Defines a caption for a table.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;tfoot&gt;</th>
+                <td>Table Footer</td>
+                <td>Defines a footer for a table.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;thead&gt;</th>
+                <td>Table Head</td>
+                <td>Defines a header for a table.</td>
+            </tr>
+        </table>
+        <h2>Forms</h2>
+        <table>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+            <tr>
+                <th scope="row">&lt;form&gt;</th>
+                <td>Form</td>
+                <td>Defines an HTML form for user input.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;input&gt;</th>
+                <td>Input</td>
+                <td>Defines an input control. Types: text, password, checkbox, radio, file, etc.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;textarea&gt;</th>
+                <td>Textarea</td>
+                <td>Defines a multi-line text input control.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;button&gt;</th>
+                <td>Button</td>
+                <td>Defines a clickable button.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;select&gt;</th>
+                <td>Select</td>
+                <td>Defines a drop-down list.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;option&gt;</th>
+                <td>Option</td>
+                <td>Defines an option in a drop-down list.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;label&gt;</th>
+                <td>Label</td>
+                <td>Defines a label for an input element.</td>
+            </tr>
+        </table>
+        <h2>Semantic</h2>
+        <table>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+            <tr>
+                <th scope="row">&lt;header&gt;</th>
+                <td>Header</td>
+                <td>Defines a header for a document or section.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;nav&gt;</th>
+                <td>Navigation</td>
+                <td>Defines a set of navigation links.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;main&gt;</th>
+                <td>Main Content</td>
+                <td>Defines the main content of a document.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;article&gt;</th>
+                <td>Article</td>
+                <td>Defines an independent piece of content.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;section&gt;</th>
+                <td>Section</td>
+                <td>Defines a section in a document.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;aside&gt;</th>
+                <td>Aside</td>
+                <td>Defines content aside from the main content.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;footer&gt;</th>
+                <td>Footer</td>
+                <td>Defines a footer for a document or section.</td>
+            </tr>
+            <tr>
+                <th scope="row">&lt;div&gt;</th>
+                <td>Division</td>
+                <td>Defines a division or section in a document.</td>
+            </tr>
+            <tr>
+                <th scope = "row">&lt;span&gt;</th>
+                <td>Span</td>
+                <td>Defines a section in a document. Inline Container</td>
+            </tr>
+        </table>
+        <h1>CSS Cheatsheet</h1>
+        <h2>Selectors</h2>
+        <table>
+            <tr>
+                <th scope = "col">Selector</th>
+                <th scope = "col">Name</th>
+                <th scope = "col">Description</th>
+            </tr>
+            <tr>
+                <th scope = "row">*</th>
+                <td>Universal Selector</td>
+                <td>Selects all elements.</td>
+            </tr>
+            <tr>
+                <th scope = "row">element</th>
+                <td>Type Selector</td>
+                <td>Selects all <div> elements.</td>
+            </tr>
+            <tr>
+                <th scope = "row">element.class</th>
+                <td>Class Selector</td>
+                <td>Selects all elements with the specified class.</td>
+            </tr>
+            <tr>
+                <th scope = "row">element#id</th>
+                <td>ID Selector</td>
+                <td>Selects a single element with the specified ID.</td>
+            </tr>
+            <tr>
+                <th scope = "row">element::before</th>
+                <td>Pseudo-element Selector</td>
+                <td>Selects a specific part of an element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">element::after</th>
+                <td>Pseudo-element Selector</td>
+                <td>Selects a specific part of an element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">element:hover</th>
+                <td>Pseudo-class Selector</td>
+                <td>Selects an element when it is hovered over.</td>
+            </tr>
+        </table>
+        <h2>Box Model</h2>
+        <table>
+            <tr>
+                <th scope = "col">Property</th>
+                <th scope = "col">Name</th>
+                <th scope = "col">Description</th>
+            </tr>
+            <tr>
+                <th scope = "row">width</th>
+                <td>Width</td>
+                <td>Defines the width of the content area.</td>
+            </tr>
+            <tr>
+                <th scope = "row">height</th>
+                <td>Height</td>
+                <td>Defines the height of the content area.</td>
+            </tr>
+            <tr>
+                <th scope = "row">padding</th>
+                <td>Padding</td>
+                <td>Defines the space between the content and the border. Inner spacing</td>
+            </tr>
+            <tr>
+                <th scope = "row">border</th>
+                <td>Border</td>
+                <td>Defines the border around the element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">margin</th>
+                <td>Margin</td>
+                <td>Defines the space outside the border. Outer spacing</td>
+            </tr>
+        </table>
+        <h2>Display & Positioning</h2>
+        <table>
+            <tr>
+                <th scope = "col">Property</th>
+                <th scope = "col">Name</th>
+                <th scope = "col">Description</th>
+            </tr>
+            <tr>
+                <th scope = "row">display</th>
+                <td>Display</td>
+                <td>Defines the display behavior of an element. Block, inline, flex, etc.</td>
+            </tr>
+            <tr>
+                <th scope = "row">position</th>
+                <td>Position</td>
+                <td>Defines the positioning method for an element. Static, relative, absolute, fixed, sticky.</td>
+            </tr>
+            <tr>
+                <th scope = "row">top</th>
+                <td>Top</td>
+                <td>Defines the top position of a positioned element. Moves element down from the top.</td>
+            </tr>
+            <tr>
+                <th scope = "row">right</th>
+                <td>Right</td>
+                <td>Defines the right position of a positioned element. Moves element left from the right.</td>
+            </tr>
+            <tr>
+                <th scope = "row">bottom</th>
+                <td>Bottom</td>
+                <td>Defines the bottom position of a positioned element. Moves element up from the bottom.</td>
+            </tr>
+            <tr>
+                <th scope = "row">left</th>
+                <td>Left</td>
+                <td>Defines the left position of a positioned element. Moves element right from the left.</td>
+            </tr>
+            <tr>
+                <th scope = "row">z-index</th>
+                <td>Z-Index</td>
+                <td>Defines the stack order of a positioned element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">overflow</th>
+                <td>Overflow</td>
+                <td>Defines what happens when content overflows an element's box. (Hidden, scroll, auto)</td>
+            </tr>
+        </table>
+        <h2>Flexbox</h2>
+        <table>
+            <tr>
+                <th scope = "col">Property</th>
+                <th scope = "col">Name</th>
+                <th scope = "col">Description</th>
+            </tr>
+            <tr>
+                <th scope = "row">display</th>
+                <td>Display</td>
+                <td>Defines the display behavior of an element as a flex container.</td>
+            </tr>
+            <tr>
+                <th scope = "row">flex-direction</th>
+                <td>Flex Direction</td>
+                <td>Defines the direction of the flex items (row, column).</td>
+            </tr>
+            <tr>
+                <th scope = "row">justify-content</th>
+                <td>Justify Content</td>
+                <td>Defines the alignment of flex items along the main axis.</td>
+            </tr>
+            <tr>
+                <th scope = "row">align-items</th>
+                <td>Align Items</td>
+                <td>Defines the alignment of flex items along the cross axis.</td>
+            </tr>
+            <tr>
+                <th scope = "row">flex-wrap</th>
+                <td>Flex Wrap</td>
+                <td>Defines whether flex items should wrap onto multiple lines.</td>
+            </tr>
+        </table>
+        <h2>Typography</h2>
+        <table>
+            <tr>
+                <th scope = "col">Property</th>
+                <th scope = "col">Name</th>
+                <th scope = "col">Description</th>
+            </tr>
+            <tr>
+                <th scope = "row">font-family</th>
+                <td>Font Family</td>
+                <td>Defines the font family for text.</td>
+            </tr>
+            <tr>
+                <th scope = "row">font-size</th>
+                <td>Font Size</td>
+                <td>Defines the size of the font.</td>
+            </tr>
+            <tr>
+                <th scope = "row">font-weight</th>
+                <td>Font Weight</td>
+                <td>Defines the weight (boldness) of the font.</td>
+            </tr>
+            <tr>
+                <th scope = "row">line-height</th>
+                <td>Line Height</td>
+                <td>Defines the height of a line box.</td>
+            </tr>
+            <tr>
+                <th scope = "row">text-align</th>
+                <td>Text Align</td>
+                <td>Defines the horizontal alignment of text. left, right, center, justify</td>
+            </tr>
+            <tr>
+                <th scope = "row">text-decoration</th>
+                <td>Text Decoration</td>
+                <td>Defines the decoration added to text (underline, overline, line-through).</td>
+            </tr>
+            <tr>
+                <th scope = "row">text-transform</th>
+                <td>Text Transform</td>
+                <td>Defines the capitalization of text (uppercase, lowercase, capitalize).</td>
+            </tr>
+            <tr>
+                <th scope = "row">letter-spacing</th>
+                <td>Letter Spacing</td>
+                <td>Defines the spacing between characters in text.</td>
+            </tr>
+        </table>
+        <h2>Colors & Backgrounds</h2>
+        <table>
+            <tr>
+                <th scope = "col">Property</th>
+                <th scope = "col">Name</th>
+                <th scope = "col">Description</th>
+            </tr>
+            <tr>
+                <th scope = "row">color</th>
+                <td>Color</td>
+                <td>Defines the text color of an element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">background-color</th>
+                <td>Background Color</td>
+                <td>Defines the background color of an element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">background-image</th>
+                <td>Background Image</td>
+                <td>Defines the background image of an element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">background-size</th>
+                <td>Background Size</td>
+                <td>Defines the size of the background image. Cover, contain, or specific dimensions.</td>
+            </tr>
+            <tr>
+                <th scope = "row">opacity</th>
+                <td>Opacity</td>
+                <td>Defines the transparency level of an element.</td>
+            </tr>
+        </table>
+        <h2>Miscellaneous</h2>
+        <table>
+            <tr>
+                <th scope = "col">Property</th>
+                <th scope = "col">Name</th>
+                <th scope = "col">Description</th>
+            </tr>
+            <tr>
+                <th scope = "row">box-shadow</th>
+                <td>Box Shadow</td>
+                <td>Defines the shadow effect around an element's box.</td>
+            </tr>
+            <tr>
+                <th scope = "row">border-radius</th>
+                <td>Border Radius</td>
+                <td>Defines the radius of an element's corners.</td>
+            </tr>
+            <tr>
+                <th scope = "row">transition</th>
+                <td>Transition</td>
+                <td>Defines the transition effect when a property changes.</td>
+            </tr>
+            <tr>
+                <th scope = "row">transform</th>
+                <td>Transform</td>
+                <td>Defines the transformation (rotation, scaling, etc.) of an element.</td>
+            </tr>
+            <tr>
+                <th scope = "row">border-collapse</th>
+                <td>Border Collapse</td>
+                <td>Defines whether table borders are collapsed into a single border (looks cleaner) or separated.</td>
+            </tr>
+        </table>
+</body>
+</html>
